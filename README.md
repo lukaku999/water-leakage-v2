@@ -13,4 +13,4 @@ The API documentation UI is a sample documentation UI developed by Mabuela Ngulu
 
 ## Live Version
 
-You can find a live version of the API documentation UI at the following link: https://water-leakage-v2.vercel.app/api-docs
+You can find a live version of the API documentation UI at the following link: https://water-leakage-v2.vercel.app. There is no styling due to the hosting site being unable to locate the following file: swagger-ui.css.
