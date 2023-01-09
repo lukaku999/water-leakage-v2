@@ -4,8 +4,6 @@ const express = require('express');
 //The API spec is created using SwaggerUI
 const swaggerUI = require('swagger-ui-express');
 
-const { bootstrap } = require('./bootstrap');
-
 const { specs } = require('./apiSpec/specs');
 const {
   getLeakages,
