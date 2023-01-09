@@ -27,7 +27,7 @@ const PORT = 9000;
 const router = express.Router();
 
 //the first parameter points to the route the API documentation can be located on the Server
-app.use('/', swaggerUI.serve, swaggerUI.setup(specs));
+app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(specs));
 
 //schema definition of the API
 /**

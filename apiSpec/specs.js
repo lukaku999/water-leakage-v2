@@ -12,7 +12,7 @@ const options = {
     },
     servers: [
       {
-        url: 'https://water-leakage-v2.vercel.app',
+        url: 'http://localhost:9000/api',
       },
     ],
   },
