@@ -9,3 +9,7 @@ The API documentation UI is a sample documentation UI developed by Mabuela Ngulu
 1. Navigate to root folder of project in your command line.
 2. Run 'npm install' in the root folder directory to install the necessary dependencies.
 3. Open the browser and go to the following URL to see the API documentation UI: http://localhost:9000/api-docs.
+
+## Documentation
+
+The documentation of the API can be found in the index.js located in the root folder.
