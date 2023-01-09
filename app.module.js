@@ -2,7 +2,7 @@ const { ServeStaticModule } = require('@nestjs/serve-static');
 const { Module } = require('@nestjs/common');
 const { join } = require('path');
 
-@Module({
+Module({
   imports: [
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'swagger-static'),
@@ -11,5 +11,6 @@ const { join } = require('path');
   ],
   controllers: [],
   providers: [],
-})
-export class AppModule {}
+});
+
+console.log('it ran');

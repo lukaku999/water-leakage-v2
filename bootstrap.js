@@ -1,6 +1,6 @@
 const { NestFactory } = require('@nestjs/core');
 const { SwaggerModule, DocumentBuilder } = require('@nestjs/swagger');
-
+require('./app.module');
 // core
 const { resolve } = require('path');
 const { writeFileSync, createWriteStream } = require('fs');
